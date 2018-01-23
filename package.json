@@ -1,9 +1,9 @@
 {
-  "name": "cc.fovea.cordova.openwith",
-  "version": "1.1.0",
+  "name": "cordova-plugin-openwith",
+  "version": "1.1.1",
   "description": "Cordova \"Open With\" plugin for iOS and Android",
   "cordova": {
-    "id": "cc.fovea.cordova.openwith",
+    "id": "cordova-plugin-openwith",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/j3k0/cordova-plugin-openwith.git"
+    "url": "https://github.com/Cloudscapelabs/cordova-plugin-openwith"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -38,7 +38,7 @@
   "bugs": {
     "url": "https://github.com/j3k0/cordova-plugin-openwith/issues"
   },
-  "homepage": "https://github.com/j3k0/cordova-plugin-openwith",
+  "homepage": "https://github.com/Cloudscapelabs/cordova-plugin-openwith",
   "# Dependencies required by the hooks": "",
   "dependencies": {
     "file-system": "^2.2.2",
