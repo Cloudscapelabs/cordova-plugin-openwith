@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cc.fovea.cordova.openwith"
+    id="com.cloudscapelabs.openwith"
     version="1.0.0">
 
     <name>OpenWith</name>
@@ -64,7 +64,7 @@ SOFTWARE.
             <array>
                 <dict>
                     <string>CFBundleURLName</string>
-                    <string>cc.fovea.openwith.$IOS_URL_SCHEME.shareextension</string>
+                    <string>com.cloudscapelabs.openwith.$IOS_URL_SCHEME.shareextension</string>
                     <string>CFBundleURLSchemes</string>
                     <array>
                         <string>$IOS_URL_SCHEME</string>
@@ -109,16 +109,16 @@ SOFTWARE.
         <!-- Cordova >= 3.0.0 -->
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="OpenWithPlugin">
-				<param name="android-package" value="cc.fovea.openwith.OpenWithPlugin"/>
+				<param name="android-package" value="com.cloudscapelabs.openwith.OpenWithPlugin"/>
 			</feature>
             <preference name="AndroidLaunchMode" value="singleTask"/>
         </config-file>
 
         <!-- cordova plugin src files -->
-        <source-file src="src/android/cc/fovea/openwith/OpenWithPlugin.java" target-dir="src/cc/fovea/openwith" />
-        <source-file src="src/android/cc/fovea/openwith/PluginResultSender.java" target-dir="src/cc/fovea/openwith" />
-        <source-file src="src/android/cc/fovea/openwith/Serializer.java" target-dir="src/cc/fovea/openwith" />
-        <source-file src="src/android/cc/fovea/openwith/ByteStreams.java" target-dir="src/cc/fovea/openwith" />
+        <source-file src="src/android/com/cloudscapelabs/openwith/OpenWithPlugin.java" target-dir="src/com/cloudscapelabs/openwith" />
+        <source-file src="src/android/com/cloudscapelabs/openwith/PluginResultSender.java" target-dir="src/com/cloudscapelabs/openwith" />
+        <source-file src="src/android/com/cloudscapelabs/openwith/Serializer.java" target-dir="src/com/cloudscapelabs/openwith" />
+        <source-file src="src/android/com/cloudscapelabs/openwith/ByteStreams.java" target-dir="src/com/cloudscapelabs/openwith" />
     </platform>
 
 <!--

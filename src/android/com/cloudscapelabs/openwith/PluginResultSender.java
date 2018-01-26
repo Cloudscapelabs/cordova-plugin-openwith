@@ -1,4 +1,4 @@
-package cc.fovea.openwith;
+package com.cloudscapelabs.openwith;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
