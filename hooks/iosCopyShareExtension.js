@@ -121,7 +121,7 @@ module.exports = function(context) {
 
   findXCodeproject(context, function(projectFolder, projectName) {
 
-    var srcFolder = path.join(context.opts.projectRoot, 'plugins', PLUGIN_ID, 'src', 'ios', 'ShareExtension');
+    var srcFolder = path.join(context.opts.projectRoot, 'plugins', PLUGIN_ID, 'src', 'ios');
     if (!fs.existsSync(srcFolder)) {
       throw redError('Missing extension project folder in ' + srcFolder + '.');
     }
