@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-openwith",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Cordova \"Open With\" plugin for iOS and Android",
   "cordova": {
     "id": "com.cloudscapelabs.openwith",
@@ -34,10 +34,6 @@
     "js-test-watch": "mocha --watch www"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/j3k0/cordova-plugin-openwith/issues"
-  },
-  "homepage": "https://github.com/Cloudscapelabs/cordova-plugin-openwith",
   "# Dependencies required by the hooks": "",
   "dependencies": {
     "file-system": "^2.2.2",

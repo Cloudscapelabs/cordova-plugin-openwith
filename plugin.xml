@@ -28,7 +28,7 @@ SOFTWARE.
     id="com.cloudscapelabs.openwith"
     version="1.0.0">
 
-    <name>OpenWith</name>
+    <name>cordova-plugin-openwith</name>
 	<description>Cordova "Open With" plugin for iOS and Android</description>
     <engines>
         <engine name="cordova" version=">=6.0.0" />
